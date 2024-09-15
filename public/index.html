@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <style>
+        .myform {
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .login-box {
+            margin: auto;
+            padding: 20px;
+            background: #f1f1f1;
+            border: 1px solid #ccc;
+            width: 300px;
+        }
+        .login-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .login-box input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .login-box input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="myform">
+        <h1>Login</h1>
+        <div class="login-box">
+            <form action="/process_login" method="post">
+                <label for="Email">Email:</label>
+                <input spellcheck="false" name="Email" id="Email" type="email" required>
+                <label for="Passwd">Password:</label>
+                <input name="Passwd" id="Passwd" type="password" required>
+                <input class="button button-submit" name="signIn" id="signIn" value="Sign in" type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
