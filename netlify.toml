@@ -2,7 +2,7 @@
   functions = "functions"
   publish = "public"
 
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+[context.production.environment]
+  FIREBASE_PROJECT_ID = "login-12435"
+  FIREBASE_CLIENT_EMAIL = "firebase-adminsdk-d0faw@login-12435.iam.gserviceaccount.com"
+  FIREBASE_PRIVATE_KEY = "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzQtLykSUdUjb7\nVH6OWnpmmZuU79sLtshChrd60b3Rx64Wbdt99HHeN83A+LLa4V8ukJlcyURbcnb6\nk/aD5kVUSd5SqEQg+7TeI5T2EgjsdhgFrJlPtuuFhzHNSkKle62KuiFRtojRZhxX\nfYQ2oyohxsz0AyrBjGe3bessd8hVakY2yvdJlO2JuB5Csw1qFRm0WLN1FZGoYGSU\nJkyPns74K6Y3ONk2+SgzVlvRawIjsOzRB4bHxijesGuGSxa2RreVotRHt6sfD2Ca\nZGyntsOh0eEZfvRI/W85qQFhYgIHYvh4/yM1VEsc/wL70SLl+evO8c98bJN05e8W\njpQk5Ua9AgMBAAECggEAAdrt8HU4l1xXtdOqyKHelOu/jLPLxkwCuA+JXBPKHV7t\n6g0CgcPzHrvgnP/l5/Z/o+16rNdnZfPiD9dSrIxISOZHzv6vT9ETDt565u4KWhoh\nxwNBhe3sc5IR3aBIXsqQIfipqh0TvukJ34zsvp0DLVzPl7HlsiGYHDGexrPJprqh\nlr9By2+voiqH/RvLijT1PL+LvDCfyv58zhpWl3dHAy7Mct7InEzjEPaweCvLwOFQ\nVgjFs5ffBXyjj4V4HOfIRZ/8T9Us9PRBCWfPXEjtEjVkcBFuc51jLtB1SLPUBIf9\ntUF62fq30PuNGvulXn4r0KuFQ2SnH94Lu0d5hg5J8QKBgQD9Xmy99ffzeMNFldrd\nS09Pjsu0aFF+R0G8H+GtPTPzAov4EKuJCi+V+FbHVe7aN0+7t7ir5kbcKpism3Qo\nueH5G6JYs+tHJr1fAjSL8jBI26d2gr0wNOCFk1bx004/MEQJrpjvx25Nq/5fRno9\n0rEY4Q2qRxbq5HnJNM1dQLc+UQKBgQC1H2Kkosn14DRK5JlJsPAVjqflM1FvJcFp\nSvp51yM/bjGDDvfyocuaZt+2IJwsMo74KZdsb3t7XwNwufMXvZbIUzeEzIOHfrRV\nU4zpQpSX+ZsfNbWWA2ClQa3WH4npZHgzrMsgShwKk357r8WKh/5B3N+8T+GuyMkm\na3F1uVEKrQKBgAShqz81tdifhoJJIP0WmVaM97BOj97NEqiLtKZkDgUNMN3SADC7\nHO+S4JM4QOuAQ1bdHuUViooPxUayeMcdzsGs/aS9dTmRvbh0490DClrqmP8TmL2+\n2bPXY6l8AVwqV7QNmwIXFS8aS8YWFbn3lgEsbAGG1yZoEsnYy0A/JJphAoGAHuDj\n61eJgO6hW6dPbt3IgJRakVvHZWCVccMDouQHsVey/zn9EZN956vkNeOnXG2eLDbD\nBwyWi7juGDjLdd+vpiVx0KUhQ2dZjTZ6ToY4WRSH2rFIbPPUdTgWT+v+khi72Wt7\nEd0wnKj6plGYJv76XPYv+qXPvwGiMXed10kpxN0CgYEA0FTUOJ1ANI1W9NflHmBl\nRCerJ/AIbPWGjDprN0z13wQeD7wmQlSvAoOin+74EnpVcfJnKlP/eKlJ5fFnVtHV\nvczR9XTfri7xqQfc+sFkiO5XP9pMiHXDXVDCOaTUFl9k1ytWQDoLCf8I81PQ6ekc\nDK6/ORcYolVN12QOG0w7Ckc=\n-----END PRIVATE KEY-----\n"
